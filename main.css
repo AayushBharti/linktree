@@ -1,3 +1,41 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* Entrance animations
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+.button-entrance {
+    animation-name: popUp;
+    animation-duration: 1s;
+    animation-fill-mode: both;
+    /* Used to start button entrance animation one after another  */
+    animation-delay: calc(var(--delay)/10);
+  }
+
+@keyframes popUp {
+  from {
+    opacity: 0;
+    transform: scale3d(0.3, 0.3, 0.3);
+  }
+
+  50% {
+    opacity: 1;
+  }
+}
+
+.fadein {
+    animation-name: fadein;
+    animation-duration: 3s;
+    animation-fill-mode: both;
+  }
+
+@keyframes fadein {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
