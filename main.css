@@ -3,13 +3,17 @@
 @tailwind utilities;
 
 body{
-    background-image: url(/assets/aurora.jpg);
+  background-image: url(/assets/aurora.jpg);
 }
+
+.logo{
+  box-shadow: rgba(0, 0, 0, 0.250) 0px 5px 20px 1px;
+}
+
 
 .button{
   text-decoration: none;
   height: 48px;
-  text-align: center;
   font-size: 18px;
   width: 330px;
   font-weight: 700;
@@ -25,13 +29,8 @@ body{
   animation-fill-mode: both;
   /* Used to start button entrance animation one after another  */
   animation-delay: calc(0.3s/10);
-  box-shadow: rgb(0 0 0 / 5%) 0 0 8px;
+  box-shadow: rgba(0, 0, 0, 0.250) 0px 5px 20px 1px;
 }
-
-.button i{
-    /* font-size: 30px; */
-}
-
 
 @keyframes btnAnimate {
   from {
@@ -49,12 +48,11 @@ body{
   background-position: left center;
   box-shadow: rgb(0 0 0 / 5%) 0 0 8px;
   transition: .6s ease;
+
 }
 
 .special-button:hover {
     background-size: 320%;
     background-position: right center;
-  }
+}
   
-
-
