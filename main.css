@@ -2,40 +2,35 @@
 @tailwind components;
 @tailwind utilities;
 
-/* Entrance animations
-–––––––––––––––––––––––––––––––––––––––––––––––––– */
 
-.button-entrance {
-    animation-name: popUp;
-    animation-duration: 1s;
-    animation-fill-mode: both;
-    /* Used to start button entrance animation one after another  */
-    animation-delay: calc(var(--delay)/10);
-  }
+.button{
+  text-decoration: none;
+  height: 53px;
+  text-align: center;
+  font-size: 20px;
+  width: 350px;
+  font-weight: 700;
+  line-height: 48px;
+  letter-spacing: 0.1px;
+  border-radius: 8px;
+  cursor: pointer;
+  backdrop-filter: blur(10px);
+  color: white;
 
-@keyframes popUp {
+  animation-name: btnAnimate;
+  animation-duration: 1s;
+  animation-fill-mode: both;
+  /* Used to start button entrance animation one after another  */
+  animation-delay: calc(0.3s/10);
+}
+
+
+@keyframes btnAnimate {
   from {
     opacity: 0;
     transform: scale3d(0.3, 0.3, 0.3);
   }
-
   50% {
-    opacity: 1;
-  }
-}
-
-.fadein {
-    animation-name: fadein;
-    animation-duration: 3s;
-    animation-fill-mode: both;
-  }
-
-@keyframes fadein {
-  from {
-    opacity: 0;
-  }
-
-  to {
     opacity: 1;
   }
 }
