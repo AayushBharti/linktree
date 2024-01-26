@@ -2,6 +2,36 @@
 @tailwind components;
 @tailwind utilities;
 
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: white;
+  scroll-behavior: smooth;
+  user-select: none;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  /* user-drag: none; */
+  -webkit-user-drag: none;
+
+}
+
+body {
+  /* min-height: 100vh; */
+  /* background: radial-gradient(ellipse at bottom,  #223344 0%,  #090a0f 100%); */
+  /* opacity: 0; */
+  background-repeat: no-repeat;
+  background-image: url(/assets/aurora.jpg);
+  background-size: cover;
+  background-position:left;
+  background-attachment: fixed;
+  position: relative;
+}
+
+
 .logo{
   box-shadow: rgba(0, 0, 0, 0.175) 0px 5px 20px 1px;
 }
@@ -25,6 +55,7 @@
   animation-delay: calc(0.3s/10); /* Used to start button entrance animation one after another  */
   box-shadow: rgba(0, 0, 0, 0.175) 0px 5px 20px 1px;
 }
+
 
 @keyframes btnAnimate {
   from {
