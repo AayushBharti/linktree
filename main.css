@@ -2,14 +2,9 @@
 @tailwind components;
 @tailwind utilities;
 
-body{
-  background-image: url(/assets/aurora.jpg);
-}
-
 .logo{
-  box-shadow: rgba(0, 0, 0, 0.250) 0px 5px 20px 1px;
+  box-shadow: rgba(0, 0, 0, 0.175) 0px 5px 20px 1px;
 }
-
 
 .button{
   text-decoration: none;
@@ -27,9 +22,8 @@ body{
   animation-name: btnAnimate;
   animation-duration: 1s;
   animation-fill-mode: both;
-  /* Used to start button entrance animation one after another  */
-  animation-delay: calc(0.3s/10);
-  box-shadow: rgba(0, 0, 0, 0.250) 0px 5px 20px 1px;
+  animation-delay: calc(0.3s/10); /* Used to start button entrance animation one after another  */
+  box-shadow: rgba(0, 0, 0, 0.175) 0px 5px 20px 1px;
 }
 
 @keyframes btnAnimate {
@@ -56,3 +50,4 @@ body{
     background-position: right center;
 }
   
+

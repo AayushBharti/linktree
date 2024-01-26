@@ -18,28 +18,21 @@
     }
 }
 
-@keyframes animate {
-    0% {
-      background-position: -500%;
-    }
-    100% {
-      background-position: 500%;
-    }
-}
+
 
 
 body {
     margin: 0;
     padding: 0;
     min-height: 100vh;
-    background: radial-gradient(ellipse at bottom,  #223344 0%,  #090a0f 100%);
+    /* background: radial-gradient(ellipse at bottom,  #223344 0%,  #090a0f 100%); */
     opacity: 0;
     animation: 1s ease-out .3s 1 transitionAnimation; /* duration/timing-function/delay/iterations/name */
     animation-fill-mode: forwards;
     background-repeat: no-repeat;
     background-image: url(/assets/aurora.jpg);
     background-size: cover;
-    background-position: top;
+    background-position:left;
     background-attachment: fixed;
     position: relative;
 }
