@@ -27,8 +27,8 @@ body {
     /* min-height: 100vh; */
     /* background: radial-gradient(ellipse at bottom,  #223344 0%,  #090a0f 100%); */
     /* opacity: 0; */
-    animation: 1s ease-out .3s 1 transitionAnimation; /* duration/timing-function/delay/iterations/name */
-    animation-fill-mode: forwards;
+  /*  animation: 1s ease-out .3s 1 transitionAnimation;  duration/timing-function/delay/iterations/name */
+    /* animation-fill-mode: forwards; */
   }
 
 

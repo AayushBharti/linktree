@@ -54,12 +54,14 @@ body {
   position: relative;
 }
 
-
 .logo{
   box-shadow: rgba(0, 0, 0, 0.175) 0px 5px 20px 1px;
 }
 
 .button{
+  display: flex;
+  justify-content: center;
+  align-items: center;
   text-decoration: none;
   height: 48px;
   font-size: 18px;
@@ -69,16 +71,37 @@ body {
   letter-spacing: 0.1px;
   border-radius: 30px;
   cursor: pointer;
-  backdrop-filter: blur(10px);
+  /* backdrop-filter: blur(10px); */
   color: white;
 
   animation-name: btnAnimate;
   animation-duration: 1s;
   animation-fill-mode: both;
   animation-delay: calc(0.3s/10); /* Used to start button entrance animation one after another  */
-  box-shadow: rgba(0, 0, 0, 0.175) 0px 5px 20px 1px;
+  /* box-shadow: rgba(0, 0, 0, 0.175) 0px 5px 20px 1px; */
+  transition: all .4s ease-in-out;
+  background-size: 300% 100%;
 }
-
+.button:hover{
+  background-position: 100% 0;
+  transition: all .4s ease-in-out;
+}
+.github{
+  background-image: linear-gradient(to right, #171c22, #343d49, #353e4b, #171c22);
+  box-shadow: 0 4px 15px 0 rgba(45, 54, 65, 0.864);
+}
+.x{
+  background-image: linear-gradient(to right, #171c22, #343d49, #353e4b, #171c22);
+  box-shadow: 0 4px 15px 0 rgba(35, 42, 50, 0.864);
+}
+.telegram{
+  box-shadow: 0 4px 15px 0 rgba(65, 132, 234, 0.75);
+  background-image: linear-gradient(to right, #25aae1, #4481eb, #04befe, #3f86ed);
+}
+.linkedin{
+  box-shadow: 0 4px 15px 0 rgba(36, 103, 205, 0.79);
+  background-image: linear-gradient(to right, #2c72c6, #4481eb, #07aee6, #2a6ec2);
+}
 
 @keyframes btnAnimate {
   from {
@@ -90,18 +113,16 @@ body {
   }
 }
 
-.special-button{
+.portfolio-btn{
   background: linear-gradient(15deg, #880088, #aa2068, #cc3f47, #de6f3d, #f09f33, #de6f3d, #cc3f47, #aa2068, #880088) no-repeat;
   background-size: 300%;
   background-position: left center;
   box-shadow: rgb(0 0 0 / 5%) 0 0 8px;
   transition: .6s ease;
-
+  box-shadow: 0 5px 15px rgba(214, 56, 141, 0.961);
 }
-
-.special-button:hover {
-    background-size: 320%;
-    background-position: right center;
+.portfolio-btn:hover{
+  background-size: 320%;
+  background-position: right center;
 }
-  
-
+ 
