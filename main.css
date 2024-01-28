@@ -52,13 +52,26 @@ body {
   background-position:left;
   background-attachment: fixed;
   position: relative;
-  transition:0.8s;
+  transition:1s;
 }
 
 .dark-mode{
-  transition: .8s;
+  transition: 1;
   background-image: url(./assets/Kingdom.jpeg);
 }
+
+.theme-button > .light-mode-svg {
+  display: none;
+}
+
+.theme-button.-dark-mode > .light-mode-svg {
+  display: block;
+}
+
+.theme-button.-dark-mode > .dark-mode-svg {
+  display: none;
+}
+
 
 .bar-icon:hover{
   transition: .6s;
@@ -76,7 +89,7 @@ body {
   font-weight: 700;
   line-height: 48px;
   letter-spacing: 0.1px;
-  border-radius: 20px;
+  border-radius: 22px;
   cursor: pointer;
   /* backdrop-filter: blur(10px); */
   color: white;
