@@ -54,6 +54,10 @@ body {
   position: relative;
 }
 
+.dark-mode{
+  background-image: url(/assets/Kingdom.jpeg);
+}
+
 
 .button{
   display: flex;
@@ -80,7 +84,7 @@ body {
   background-size: 300% 100%;
 }
 .button:hover{
-  background-position: 100% 0;
+  background-position: 100% 0%;
   transition: all .4s ease-in-out;
 }
 .github{
