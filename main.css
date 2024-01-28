@@ -54,9 +54,6 @@ body {
   position: relative;
 }
 
-.logo{
-  box-shadow: rgba(0, 0, 0, 0.175) 0px 5px 20px 1px;
-}
 
 .button{
   display: flex;
@@ -65,11 +62,11 @@ body {
   text-decoration: none;
   height: 48px;
   font-size: 18px;
-  width: 330px;
+  width: 320px;
   font-weight: 700;
   line-height: 48px;
   letter-spacing: 0.1px;
-  border-radius: 30px;
+  border-radius: 20px;
   cursor: pointer;
   /* backdrop-filter: blur(10px); */
   color: white;
