@@ -47,7 +47,7 @@ body {
   /* background: radial-gradient(ellipse at bottom,  #223344 0%,  #090a0f 100%); */
   /* opacity: 0; */
   background-repeat: no-repeat;
-  background-image: url(/assets/aurora.jpg);
+  background-image: url(./assets/aurora.jpg);
   background-size: cover;
   background-position:left;
   background-attachment: fixed;
@@ -55,7 +55,7 @@ body {
 }
 
 .dark-mode{
-  background-image: url(/assets/Kingdom.jpeg);
+  background-image: url(./assets/Kingdom.jpeg);
 }
 
 
