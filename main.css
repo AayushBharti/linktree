@@ -52,12 +52,18 @@ body {
   background-position:left;
   background-attachment: fixed;
   position: relative;
+  transition:0.8s;
 }
 
 .dark-mode{
+  transition: .8s;
   background-image: url(./assets/Kingdom.jpeg);
 }
 
+.bar-icon:hover{
+  transition: .6s;
+  filter: drop-shadow(0 0 5px white);
+}
 
 .button{
   display: flex;
