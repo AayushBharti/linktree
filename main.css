@@ -73,9 +73,9 @@ body {
 }
 
 
-.bar-icon:hover, .dark-mode-svg:hover, .light-mode-svg{
+.bar-icon:hover{
   transition: .6s;
-  /* filter: drop-shadow(0 0 5px rgba(255, 255, 255, 0.804)); */
+  filter: drop-shadow(0 0 5px rgba(255, 255, 255, 0.804));
 }
 
 .button{
@@ -85,6 +85,7 @@ body {
   text-decoration: none;
   height: 48px;
   font-size: 18px;
+  
   width: 320px;
   font-weight: 700;
   line-height: 48px;
@@ -102,6 +103,7 @@ body {
   transition: all .4s ease-in-out;
   background-size: 300%;
 }
+
 .button:hover{
   background-position: 100% 0%;
   transition: all .4s ease-in-out;
