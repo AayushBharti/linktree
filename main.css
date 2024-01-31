@@ -73,9 +73,9 @@ body {
 }
 
 
-.bar-icon:hover{
+.bar-icon:hover, .dark-mode-svg:hover, .light-mode-svg{
   transition: .6s;
-  filter: drop-shadow(0 0 5px white);
+  /* filter: drop-shadow(0 0 5px rgba(255, 255, 255, 0.804)); */
 }
 
 .button{
@@ -100,7 +100,7 @@ body {
   animation-delay: calc(0.3s/10); /* Used to start button entrance animation one after another  */
   /* box-shadow: rgba(0, 0, 0, 0.175) 0px 5px 20px 1px; */
   transition: all .4s ease-in-out;
-  background-size: 300% 100%;
+  background-size: 300%;
 }
 .button:hover{
   background-position: 100% 0%;
@@ -121,6 +121,10 @@ body {
 .linkedin{
   box-shadow: 0 4px 15px 0 rgba(36, 103, 205, 0.79);
   background-image: linear-gradient(to right, #2c72c6, #4481eb, #07aee6, #2a6ec2);
+}
+.message{
+  background-image: linear-gradient(to right, #6253e1, #852D91,#91319e, #F24645);
+  box-shadow: 0 4px 15px 0 rgba(126, 52, 161, 0.75);
 }
 
 @keyframes btnAnimate {
