@@ -109,11 +109,11 @@ body {
   transition: all .4s ease-in-out;
 }
 .github{
-  background-image: linear-gradient(to right, #171c22, #343d49, #353e4b, #171c22);
+  background-image: linear-gradient(to right, #171c22, #1c2129, #353e4b, #171c22);
   box-shadow: 0 4px 15px 0 rgba(45, 54, 65, 0.864);
 }
 .x{
-  background-image: linear-gradient(to right, #171c22, #343d49, #353e4b, #171c22);
+  background-image: linear-gradient(to right, #171c22, #1c2129, #353e4b, #171c22);
   box-shadow: 0 4px 15px 0 rgba(35, 42, 50, 0.864);
 }
 .telegram{
@@ -125,7 +125,7 @@ body {
   background-image: linear-gradient(to right, #2c72c6, #4481eb, #07aee6, #2a6ec2);
 }
 .message{
-  background-image: linear-gradient(to right, #6253e1, #852D91,#91319e, #F24645);
+  background-image: linear-gradient(to right, #6253e1, #852D91,#ab3bba, #6253e1);
   box-shadow: 0 4px 15px 0 rgba(126, 52, 161, 0.75);
 }
 
