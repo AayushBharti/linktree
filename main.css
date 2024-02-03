@@ -52,11 +52,11 @@ body {
   background-position: left;
   background-attachment: fixed;
   position: relative;
-  transition: 1s;
+  transition: 1.2s;
 }
 
 .dark-mode {
-  transition: 1;
+  transition: 1.2s;
   background-image: url(./assets/Kingdom.jpeg);
 }
 
